@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3196" started-at="2021-03-19T18:44:31 IST" finished-at="2021-03-19T18:44:35 IST">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="3196" started-at="2021-03-19T18:44:31 IST" finished-at="2021-03-19T18:44:35 IST">
+      <class name="API.CreateEmployee">
+        <test-method status="PASS" signature="verifycreateemployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:API.CreateEmployee@86be70a]" name="verifycreateemployee" duration-ms="2471" started-at="2021-03-19T18:44:32 IST" data-provider="Testdata" finished-at="2021-03-19T18:44:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sakthi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Automation engineer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycreateemployee -->
+      </class> <!-- API.CreateEmployee -->
+      <class name="API.GetEmployeelist">
+        <test-method status="PASS" signature="verifyemployeelist()[pri:0, instance:API.GetEmployeelist@480bdb19]" name="verifyemployeelist" duration-ms="90" started-at="2021-03-19T18:44:34 IST" finished-at="2021-03-19T18:44:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyemployeelist -->
+      </class> <!-- API.GetEmployeelist -->
+      <class name="API.UpdateEmployee">
+        <test-method status="PASS" signature="verifyupdateemp()[pri:0, instance:API.UpdateEmployee@7d70d1b1]" name="verifyupdateemp" duration-ms="37" started-at="2021-03-19T18:44:34 IST" finished-at="2021-03-19T18:44:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyupdateemp -->
+      </class> <!-- API.UpdateEmployee -->
+      <class name="API.Getindividualemployeedata">
+        <test-method status="PASS" signature="verifyemployeedetails()[pri:0, instance:API.Getindividualemployeedata@2a556333]" name="verifyemployeedetails" duration-ms="26" started-at="2021-03-19T18:44:34 IST" finished-at="2021-03-19T18:44:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyemployeedetails -->
+      </class> <!-- API.Getindividualemployeedata -->
+      <class name="API.DeleteEmployee">
+        <test-method status="PASS" signature="verifyupdateemp()[pri:0, instance:API.DeleteEmployee@2a742aa2]" name="verifyupdateemp" duration-ms="72" started-at="2021-03-19T18:44:34 IST" finished-at="2021-03-19T18:44:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyupdateemp -->
+      </class> <!-- API.DeleteEmployee -->
+    </test> <!-- Sanity -->
+  </suite> <!-- Suite -->
+</testng-results>
